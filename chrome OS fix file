@@ -1,0 +1,11 @@
+#!/bin/sh
+# ISCRIVITI https://www.youtube.com/channel/UC_OmfMvA2S4xFRD3M6mTLFA
+sudo apt-get update
+sudo apt-get install figlet
+sudo apt-get install pv
+sudo apt-get install cgpt
+sudo figlet -c "iscrivetevi a "
+sudo figlet -c niccogeek tutorial
+sudo figlet -c ragazzi
+sudo echo 
+sudo bash chromeos-install.sh -src rammus_recovery.bin -dst /dev/sda
